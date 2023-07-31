@@ -10,8 +10,8 @@ const LoginForm: FC<Props> = () => {
 
   const formik = useFormik({
     initialValues: {
-      email: "demo@demo.demo",
-      password: "demodemo",
+      email: "",
+      password: "",
     },
     validationSchema: object().shape({
       email: string().email().required("Email обязателен"),
