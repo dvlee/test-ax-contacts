@@ -2,6 +2,7 @@
 import { createApi, fakeBaseQuery } from "@reduxjs/toolkit/query/react";
 import {
   DocumentSnapshot,
+  addDoc,
   collection,
   deleteDoc,
   doc,
@@ -76,6 +77,7 @@ export const contactsApi = createApi({
       queryFn: async (values) => {
         try {
           const data = { ...values, timestamp: serverTimestamp() };
+          await addDoc(collection(db, "contacts"), data);
 
           return { data: { message: "Контакт успешно добавлен" } };
         } catch (error) {

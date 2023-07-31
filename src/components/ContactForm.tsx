@@ -25,8 +25,13 @@ const ContactForm: FC<Props> = ({ data, isNew = false }) => {
   const [save, { isLoading }] = query();
   const [deleteContact, { isLoading: isDeleting }] = useDeleteContactMutation();
 
+  const user =
+    localStorage.getItem("user") &&
+    JSON.parse(localStorage.getItem("user") || "{}");
+
   const formik = useFormik({
     initialValues: {
+      uid: user.uid,
       name: "",
       email: "",
       phone: "",
@@ -46,6 +51,7 @@ const ContactForm: FC<Props> = ({ data, isNew = false }) => {
       photoURL: string().required("URL фотографии обязателен"),
     }),
     onSubmit: async (values) => {
+      console.log("values", values);
       save(values)
         .unwrap()
         .then((_res) => {

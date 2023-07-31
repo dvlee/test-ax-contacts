@@ -32,7 +32,12 @@ const useAuth = () => {
   const login = async (props: AuthProps) => {
     const { email, password } = props;
     try {
-      await signInWithEmailAndPassword(auth, email, password);
+      const userCredentials = await signInWithEmailAndPassword(
+        auth,
+        email,
+        password
+      );
+      localStorage.setItem("user", JSON.stringify(userCredentials.user));
 
       toast.success("Успешный вход");
       navigate(ROUTES.HOME);
