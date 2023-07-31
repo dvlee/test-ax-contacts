@@ -1,0 +1,242 @@
+[
+  {
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "phone": "+1234567890",
+    "tags": {
+      "family": true,
+      "friends": false,
+      "work": false,
+      "other": false
+    },
+    "photoURL": "https://i.pravatar.cc/500?u=johndoe@example.com"
+  },
+  {
+    "name": "Jane Smith",
+    "email": "janesmith@example.com",
+    "phone": "+1234567891",
+    "tags": {
+      "family": false,
+      "friends": true,
+      "work": false,
+      "other": false
+    },
+    "photoURL": "https://i.pravatar.cc/500?u=janesmith@example.com"
+  },
+  {
+    "name": "Bob Johnson",
+    "email": "bobjohnson@example.com",
+    "phone": "+1234567892",
+    "tags": {
+      "family": false,
+      "friends": false,
+      "work": true,
+      "other": false
+    },
+    "photoURL": "https://i.pravatar.cc/500?u=bobjohnson@example.com"
+  },
+  {
+    "name": "Alice Williams",
+    "email": "alicewilliams@example.com",
+    "phone": "+1234567893",
+    "tags": {
+      "family": false,
+      "friends": true,
+      "work": false,
+      "other": true
+    },
+    "photoURL": "https://i.pravatar.cc/500?u=alicewilliams@example.com"
+  },
+  {
+    "name": "Steve Brown",
+    "email": "stevebrown@example.com",
+    "phone": "+1234567894",
+    "tags": {
+      "family": true,
+      "friends": false,
+      "work": true,
+      "other": false
+    },
+    "photoURL": "https://i.pravatar.cc/500?u=stevebrown@example.com"
+  },
+  {
+    "name": "Megan Davis",
+    "email": "megandavis@example.com",
+    "phone": "+1234567895",
+    "tags": {
+      "family": false,
+      "friends": true,
+      "work": false,
+      "other": true
+    },
+    "photoURL": "https://i.pravatar.cc/500?u=megandavis@example.com"
+  },
+  {
+    "name": "Mark Miller",
+    "email": "markmiller@example.com",
+    "phone": "+1234567896",
+    "tags": {
+      "family": false,
+      "friends": false,
+      "work": false,
+      "other": true
+    },
+    "photoURL": "https://i.pravatar.cc/500?u=markmiller@example.com"
+  },
+  {
+    "name": "Emily Wilson",
+    "email": "emilywilson@example.com",
+    "phone": "+1234567897",
+    "tags": {
+      "family": false,
+      "friends": true,
+      "work": false,
+      "other": false
+    },
+    "photoURL": "https://i.pravatar.cc/500?u=emilywilson@example.com"
+  },
+  {
+    "name": "Michael Moore",
+    "email": "michaelmoore@example.com",
+    "phone": "+1234567898",
+    "tags": {
+      "family": false,
+      "friends": false,
+      "work": true,
+      "other": false
+    },
+    "photoURL": "https://i.pravatar.cc/500?u=michaelmoore@example.com"
+  },
+  {
+    "name": "Sarah Taylor",
+    "email": "sarahtaylor@example.com",
+    "phone": "+1234567899",
+    "tags": {
+      "family": false,
+      "friends": false,
+      "work": false,
+      "other": true
+    },
+    "photoURL": "https://i.pravatar.cc/500?u=sarahtaylor@example.com"
+  },
+  {
+    "name": "David Anderson",
+    "email": "davidanderson@example.com",
+    "phone": "+1234567888",
+    "tags": {
+      "family": true,
+      "friends": true,
+      "work": false,
+      "other": false
+    },
+    "photoURL": "https://i.pravatar.cc/500?u=davidanderson@example.com"
+  },
+  {
+    "name": "Jessica Thomas",
+    "email": "jessicathomas@example.com",
+    "phone": "+1234567877",
+    "tags": {
+      "family": false,
+      "friends": true,
+      "work": true,
+      "other": false
+    },
+    "photoURL": "https://i.pravatar.cc/500?u=jessicathomas@example.com"
+  },
+  {
+    "name": "Robert Jackson",
+    "email": "robertjackson@example.com",
+    "phone": "+1234567866",
+    "tags": {
+      "family": false,
+      "friends": false,
+      "work": true,
+      "other": true
+    },
+    "photoURL": "https://i.pravatar.cc/500?u=robertjackson@example.com"
+  },
+  {
+    "name": "Linda White",
+    "email": "lindawhite@example.com",
+    "phone": "+1234567855",
+    "tags": {
+      "family": true,
+      "friends": false,
+      "work": true,
+      "other": false
+    },
+    "photoURL": "https://i.pravatar.cc/500?u=lindawhite@example.com"
+  },
+  {
+    "name": "James Harris",
+    "email": "jamesharris@example.com",
+    "phone": "+1234567844",
+    "tags": {
+      "family": true,
+      "friends": true,
+      "work": true,
+      "other": false
+    },
+    "photoURL": "https://i.pravatar.cc/500?u=jamesharris@example.com"
+  },
+  {
+    "name": "Patricia Martin",
+    "email": "patriciamartin@example.com",
+    "phone": "+1234567833",
+    "tags": {
+      "family": false,
+      "friends": false,
+      "work": true,
+      "other": false
+    },
+    "photoURL": "https://i.pravatar.cc/500?u=patriciamartin@example.com"
+  },
+  {
+    "name": "Charles Thompson",
+    "email": "charlesthompson@example.com",
+    "phone": "+1234567822",
+    "tags": {
+      "family": false,
+      "friends": true,
+      "work": false,
+      "other": false
+    },
+    "photoURL": "https://i.pravatar.cc/500?u=charlesthompson@example.com"
+  },
+  {
+    "name": "Laura Garcia",
+    "email": "lauragarcia@example.com",
+    "phone": "+1234567811",
+    "tags": {
+      "family": false,
+      "friends": false,
+      "work": false,
+      "other": true
+    },
+    "photoURL": "https://i.pravatar.cc/500?u=lauragarcia@example.com"
+  },
+  {
+    "name": "Chris Martinez",
+    "email": "chrismartinez@example.com",
+    "phone": "+1234567800",
+    "tags": {
+      "family": false,
+      "friends": true,
+      "work": true,
+      "other": false
+    },
+    "photoURL": "https://i.pravatar.cc/500?u=chrismartinez@example.com"
+  },
+  {
+    "name": "Lisa Robinson",
+    "email": "lisarobinson@example.com",
+    "phone": "+1234567789",
+    "tags": {
+      "family": false,
+      "friends": false,
+      "work": true,
+      "other": true
+    },
+    "photoURL": "https://i.pravatar.cc/500?u=lisarobinson@example.com"
+  }
+]
