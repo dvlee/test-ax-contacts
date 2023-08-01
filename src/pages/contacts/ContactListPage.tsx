@@ -62,7 +62,7 @@ const ContactListPage: FC<Props> = () => {
         </Link>
       </div>
 
-      <div className="flex flex-col-reverse gap-3 justify-between">
+      <div className="flex flex-col-reverse sm:flex-row gap-3 justify-between">
         <div className="order-1 w-full sm:order-none sm:w-60 lg:w-80">
           <input
             type="text"
@@ -71,8 +71,8 @@ const ContactListPage: FC<Props> = () => {
             className="w-full p-2 border border-gray-300"
           />
         </div>
-        <div className="flex flex-col items-center" role="group">
-          <span className="mr-2">Фильтрация по тегу</span>
+        <div className="flex flex-col md:flex-row items-center" role="group">
+          <span className="mr-2 sm:hidden md:block">Фильтрация по тегу</span>
           <div className="flex">
             {Object.keys(Tags).map((key) => (
               <button
